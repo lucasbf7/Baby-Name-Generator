@@ -1,42 +1,42 @@
-# Nuxt 3 Minimal Starter
+# Baby Name Generator
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+<p align="center">
+   <a href="https://www.linkedin.com/in/lucas-figueiredo-007-/">
+      <img alt="Lucas Figueiredo" src="https://img.shields.io/badge/-Lucas%20Figueiredo-57ad12?style=plastic&logo=Linkedin&logoColor=white" />
+   </a>
+</p>
 
-## Setup
+> O projeto consiste em um modulo dentro do The Nuxt 3 Bootcamp proposto pelo instrutor em seu curso na Udemy, no desafio foi desenvolvida uma aplicação do zero que siula um gerador de nomes de bebês utilizando algumas diretrizes para filtrar os resultados.
 
-Make sure to install the dependencies:
+## Fotos
 
-```bash
-# yarn
-yarn install
+<div>
+   <img src="./assets/print.png" width="500px" h="500px" />
+</div>
 
-# npm
-npm install
+## 💻 Tecnologias
 
-# pnpm
-pnpm install --shamefully-hoist
-```
+Este projeto foi feito utilizando as seguintes tecnologias:
 
-## Development Server
+- [Vue](https://vuejs.org/)
+- [TypeScript](https://www.typescriptlang.org)
+- [Nuxt](https://nuxtjs.org/)
 
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
+## 🛠️ Executando
 
 ```bash
-npm run build
+# Clone o Repositório
+$ git clone https://github.com/lucasbf7/Baby-Name-Generator.git
 ```
-
-Locally preview production build:
 
 ```bash
-npm run preview
+# Entre na pasta do projeto e baixe as dependendências
+$ npm install
 ```
 
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
+```bash
+# Execute o projeto
+$ npm run dev
+```
+
+Acesse <http://localhost:3000/> para ver o resultado.
